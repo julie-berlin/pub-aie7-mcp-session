@@ -102,4 +102,4 @@ You can find details [here](https://github.com/langchain-ai/langchain-mcp-adapte
 
 ##### ✅ Answer:
 
-See my [GitHub Homework Branch]() for implementation!
+See my [GitHub Homework Branch](https://github.com/julie-berlin/aie-cohort-7/tree/feat/homework/13_MCP/ACTIVITY_2.md) for implementation!
