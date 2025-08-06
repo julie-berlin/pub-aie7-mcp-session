@@ -1,4 +1,4 @@
-<p align = "center" draggable=”false” ><img src="https://github.com/AI-Maker-Space/LLM-Dev-101/assets/37101144/d1343317-fa2f-41e1-8af1-1dbb18399719" 
+<p align = "center" draggable=”false” ><img src="https://github.com/AI-Maker-Space/LLM-Dev-101/assets/37101144/d1343317-fa2f-41e1-8af1-1dbb18399719"
      width="200px"
      height="auto"/>
 </p>
@@ -20,7 +20,7 @@ The MCP server is set up to handle web search queries using the Tavily API. It i
 
 ## ⚠️NOTE FOR WINDOWS:⚠️
 
-You'll need to install this on the *Windows* side of your OS. 
+You'll need to install this on the *Windows* side of your OS.
 
 This will require getting two CLI tool for Powershell, which you can do as follows:
 
@@ -78,16 +78,28 @@ The server will start and listen for commands via standard input/output.
 
 The server provides a `web_search` tool that can be used to search the web for information about a given query. This is achieved by calling the `web_search` function with the desired query string.
 
-## Activities: 
+## Activities:
 
 There are a few activities for this assignment!
 
-### 🏗️ Activity #1: 
+### 🏗️ Activity #1:
 
 Choose an API that you enjoy using - and build an MCP server for it!
 
-### 🏗️ Activity #2: 
+##### ✅ Answer:
+
+Built a client that connects with [ExchangeRate-API](https://www.exchangerate-api.com/docs/overview)
+
+See code in this repository and screen capture of it working!
+
+<img src="Screenshot 2025-08-06 at 9.29.51 AM.png" width="599" alt="screen capture of MCP use in Cursor" />
+
+### 🏗️ Activity #2:
 
 Build a simple LangGraph application that interacts with your MCP Server.
 
 You can find details [here](https://github.com/langchain-ai/langchain-mcp-adapters)!
+
+##### ✅ Answer:
+
+See my [GitHub Homework Branch]() for implementation!

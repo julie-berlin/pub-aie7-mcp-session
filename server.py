@@ -7,7 +7,7 @@ from exchange_rates import ExchangeRateClient
 
 load_dotenv()
 
-mcp = FastMCP("mcp-server")
+mcp = FastMCP("local-mcp-server")
 web_search_client = TavilyClient(os.getenv("TAVILY_API_KEY"))
 exchange_rate_client = ExchangeRateClient(os.getenv("EXCHANGERATE_API_KEY"))
 
@@ -27,7 +27,7 @@ def roll_dice(notation: str, num_rolls: int = 1) -> str:
 Add your own tool here, and then use it through Cursor!
 """
 @mcp.tool()
-def get_exchange_rate(currency_code: str) -> str:
+async def get_exchange_rate(currency_code: str) -> str:
     """Get the latest exchange rates from provided base currency code (ISO 4217) to all other supported currencies"""
     exchange_rates = exchange_rate_client.get_rates(code=currency_code)
     return exchange_rates
